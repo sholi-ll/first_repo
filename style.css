@@ -26,6 +26,14 @@ aside section h4 {
   border-color: black;
   border-radius: 10px
 }
-aside section h4:hover {
+/*aside section h4:hover {
   background-color: yellow;
-}
+}*/
+
+.fade {
+  transition: opacity 2s;
+  }
+
+.fade:hover {
+  opacity: 0.5;
+  }
