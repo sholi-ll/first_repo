@@ -17,15 +17,38 @@ body {
 header h1 {
   font-size: 3.0em
 }
-aside section h4 {
+aside section {
   background-color: white;
   margin-right: 80%;
-  padding: 15px;
+  margin-bottom: 5px;
+  padding: 1px;
   text-align: center;
   border-style: double;
   border-color: black;
   border-radius: 10px
 }
+
+aside section h4 {
+  font-size: 2em;
+}
+
+aside section p {
+  font-style: italic;
+  font-family: Impact;
+  text-decoration: underline;
+}
+
+/* most general! */
+.blue {
+  color: #13C2F2;
+}
+/*most specific 
+aside section p.blue {
+  color: #13C2F2;
+} */
+
+
+
 /*aside section h4:hover {
   background-color: yellow;
 }*/
