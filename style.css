@@ -47,6 +47,26 @@ aside section p.blue {
   color: #13C2F2;
 } */
 
+ul {
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 10px;
+  list-style-image: url('./add.png')
+
+}
+
+h1 img {
+  border-style: solid;
+  border-color: red;
+  border-radius: 30px
+}
+
 
 
 /*aside section h4:hover {
